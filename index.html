@@ -3,46 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Meteo App</title>
   </head>
   <body>
-    <header>
-      <form action="">
-        <input
-          type="search"
-          id="city-input"
-          placeholder="Enter a city...."
-          required
-        />
-        <button type="submit" id="search-button">Search</button>
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:49, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>⛅12°C</div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/adeogunesther95-lab" target="_blank"
-        >Esther Adeogun</a
-      >
-      on
-      <a
-        href="https://github.com/adeogunesther95-lab/vanilla-weather-week7"
-        target="_blank"
-        >GitHub</a
-      >
-      hosted on
-      <a href="https://meteo-vanilla.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form action="">
+          <input
+            type="search"
+            id="city-input"
+            placeholder="Enter a city...."
+            required
+          />
+          <button type="submit" id="search-button">Search</button>
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:49, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>⛅12°C</div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/adeogunesther95-lab" target="_blank"
+          >Esther Adeogun</a
+        >
+        on
+        <a
+          href="https://github.com/adeogunesther95-lab/vanilla-weather-week7"
+          target="_blank"
+          >GitHub</a
+        >
+        hosted on
+        <a href="https://meteo-vanilla.netlify.app/" target="_blank">Netlify</a>
+      </footer>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
