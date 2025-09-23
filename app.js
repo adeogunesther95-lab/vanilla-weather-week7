@@ -1,8 +1,8 @@
 function handleSubmit(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#city-input");
-  let h1 = document.querySelector("#weather-app-city");
-  h1.innerHTML = `${cityInputElement.value}`;
+  let cityElement = document.querySelector("#weather-app-city");
+  cityElement.innerHTML = `${cityInputElement.value}`;
 }
 
 let searchFormElement = document.querySelector("#search-form");
